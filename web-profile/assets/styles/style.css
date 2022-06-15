@@ -1,0 +1,163 @@
+.featured-image {
+    /* width: 15%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.footer-image {
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.flex-grow {
+    flex-basis: 30%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.double {
+    flex-basis: 50%;
+    cursor: pointer;
+}
+
+.center {
+    color: #000;
+    text-align: center;
+    font-family: 'monaco', monospace;
+}
+
+
+.title {
+    color: #000;
+    text-align: left;
+    font-family: 'monaco', monospace;
+    font-size: 17px;
+}
+
+.flex-row-footer {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.flex-grow-footer-right {
+    flex-basis: 33%;
+    text-align: right;
+    padding: 5px;
+}
+
+.flex-grow-footer {
+    flex-basis: 33%;
+    text-align: center;
+    padding: 5px;
+}
+
+.flex-grow-footer-left {
+    flex-basis: 33%;
+    text-align: left;
+    padding: 5px;
+}
+
+.table {
+    text-align: left;
+    font-family: 'monaco', monospace;
+    font-size: 17px;
+}
+
+.spasi {
+    color: transparent;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+aside {
+    float: right;
+    padding-left: 15px;
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: justify;
+    font-family: 'monaco', monospace;
+    font-size: 17px;
+
+}
+
+
+
+.card {
+    border-radius: 5px;
+    padding: 50px;
+    background-color: #f8f8ff;
+}
+
+.card1 {
+    float: left;
+    width: 50%;
+    border-radius: 5px;
+    padding-left: 50px;
+    background-color: transparent;
+}
+
+
+.top {
+    font-size: 15px;
+    padding: 5px;
+    background-color: #1e90ff;
+    text-align: center;
+    color: #fff
+}
+
+main {
+    overflow: auto
+}
+
+
+@media screen and (max-width: 1000px) {
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+header {
+    display: inline
+}
+
+
+/* sliderr */

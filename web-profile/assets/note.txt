@@ -1,0 +1,1 @@
+gunakan css selector untuk mengatur tampilan secara terpisah (posisi text, gambar dan yang lainnya)
